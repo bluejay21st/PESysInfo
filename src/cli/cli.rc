@@ -1,0 +1,31 @@
+#pragma code_page(65001)
+
+#include <windows.h>
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,9,0,0
+ PRODUCTVERSION 0,9,0,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "PESysInfo Project"
+            VALUE "FileDescription", "PESysInfo CLI - 硬件信息探测接口"
+            VALUE "FileVersion", "0.9.0.0"
+            VALUE "InternalName", "PESysInfo-cli"
+            VALUE "OriginalFilename", "PESysInfo-cli.exe"
+            VALUE "ProductName", "PESysInfo"
+            VALUE "ProductVersion", "0.9.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END

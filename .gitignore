@@ -1,0 +1,10 @@
+# 编译产物
+/build
+/dist
+
+# 临时文件
+*.user
+*.suo
+.vs
+Thumbs.db
+desktop.ini
